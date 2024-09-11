@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Thermodynamic Computing: Principles, Promises, and Challenges</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/beige.min.css"> -->
+    <link rel="stylesheet" href="dist/reset.css">
+    <link rel="stylesheet" href="dist/reveal.css">
+    <link rel="stylesheet" href="dist/theme/beige.css">
+    <style>
+        .reveal .slides {
+            text-align: left;
+        }
+
+        .reveal h1,
+        .reveal h2 {
+            text-transform: none;
+        }
+
+        .reveal ul {
+            display: block;
+        }
+
+        .reveal img {
+            max-height: 500px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Thermodynamic Computing</h1>
+                <h3>Principles, Promises, and Challenges</h3>
+            </section>
+
+            <section>
+                <h2>1. Introduction</h2>
+                <ul>
+                    <li>Emerging field in computing</li>
+                    <li>Leverages principles of thermodynamics</li>
+                    <li>Potential for significant energy efficiency</li>
+                    <li>Novel computational capabilities</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h2>Binary Computing</h2>
+                <ul>
+                    <li>Based on discrete states: 0 and 1</li>
+                    <li>Deterministic sampling behavior</li>
+                    <li>Each bit has a definite state at any given time</li>
+                    <li>Sampling yields exact, reproducible results</li>
+                    <li>doesn't care about quantum effects </li>
+                </ul>
+            </section>
+
+            <!-- New slide on Quantum Computing -->
+            <section>
+                <h2>Quantum Computing</h2>
+                <ul>
+                    <li>Based on quantum bits (qubits)</li>
+                    <li>Probabilistic sampling behavior</li>
+                    <li>Qubits can exist in superposition of states</li>
+                    <li>Sampling causes wave function collapse</li>
+                    <li>Results are probabilistic, requiring multiple measurements</li>
+                    <li>Leverages quantum phenomena for certain computations</li>
+                    <li>doesn't care about thermodynamic effects by operating at absolute zero</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2> Computational Paradigms</h2>
+                <img src="./fluctiations.png" alt="Computational Paradigms">
+            </section>
+
+            <section>
+                <h2>2. Theoretical Models</h2>
+                <ul>
+                    <li>Reversible Computing </li>
+                    <li>Adiabatic Computing</li>
+                    <li>Brownian Computing</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Reversible Computing</h2>
+                <ul>
+                    <li>Based on reversible logic gates</li>
+                    <li>No information loss during computation</li>
+                    <li>Theoretically zero energy dissipation</li>
+                    <li>Challenges: implementing fully reversible systems</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Adiabatic Computing</h2>
+                <ul>
+                    <li>Focuses on minimizing energy dissipation</li>
+                    <li>Operates through slow, gradual transitions</li>
+                    <li>Trade-off: energy efficiency vs. computation speed</li>
+                    <li>Potential for ultra-low-power computing</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Brownian Computing</h2>
+                <ul>
+                    <li>Harnesses random thermal motion for computation</li>
+                    <li>Inspired by molecular processes in biology</li>
+                    <li>Potential for massively parallel computation</li>
+                    <li>relies on thermal/electronic fluctuations to perform computations</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h2>3. Promises</h2>
+                <ul>
+                    <li>Improved energy efficiency</li>
+                    <li>Reduced energy usage in cooling</li>
+                    <li>Potential for fully reversible computation</li>
+                    <li>realtime evolutive computation (robotics, self-driving cars, etc.)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>4. Value Space and Sampling</h2>
+                <ul>
+                    <li>Based on continuous energy states</li>
+                    <li>Probability distributions</li>
+                    <li>Information encoded in energy state distribution</li>
+                    <li>Sampling yields probabilistic results as a function of the energy state distribution throughout
+                        the circuit</li>
+                    <li>software is based on probability distributions (infinite inputs)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>5. Probabilistic Nature</h2>
+                <ul>
+                    <li>Ensemble of particles</li>
+                    <li>Rapid microscopic fluctuations</li>
+                    <li>Statistical system description</li>
+                    <li>Probability distribution-based information encoding</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h2>6. Challenges</h2>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div style="flex: 1; padding-right: 20px;">
+                        <img src="./energyExchange.png" alt="Challenges" style="width: 100%; height: auto;">
+                    </div>
+                    <div style="flex: 1;">
+                        <ul>
+                            <li>Software design for wave function inputs</li>
+                            <li>Function complexity vs. single-variable limitation</li>
+                            <li>Handling infinite wave function forms</li>
+                            <li>Input reproducibility</li>
+                            <li>Hardware regulation and isolation</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>7. Future Directions</h2>
+                <ul>
+                    <li>Material research</li>
+                    <li>New mathematical frameworks</li>
+                    <li>symbiosis with classical computing</li>
+                    <li>Error correction mechanisms</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2> Computational Paradigms</h2>
+                <img src="./diffs.png" alt="Computational Paradigms">
+            </section>
+
+            <section>
+                <h2>Conclusion</h2>
+                <p>Thermodynamic computing offers revolutionary potential but faces significant challenges in practical
+                    implementation.</p>
+                <p>Ongoing research and technological advancements may pave the way for this paradigm shift in
+                    computing.</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            transition: 'slide',
+        });
+    </script>
+</body>
+
+</html>
